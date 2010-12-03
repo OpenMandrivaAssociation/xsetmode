@@ -1,6 +1,6 @@
 Name:		xsetmode
 Version:	1.0.0
-Release:	%mkrel 8
+Release:	%mkrel 9
 Summary:	Set the mode for an XInput device
 Group:		Development/X11
 Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
