@@ -6,6 +6,11 @@ Group:		Development/X11
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License:	MIT
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pkgconfig(x11) >= 1.0.0
 BuildRequires: pkgconfig(xi) >= 1.0.0
 BuildRequires: pkgconfig(xfixes) pkgconfig(xcb) pkgconfig(pthread-stubs)
